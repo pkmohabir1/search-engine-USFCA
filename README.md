@@ -2,9 +2,9 @@
 
 # Single Threaded/Multi-Threaded Search Engine Back-End (Java)
 
-Writer: Porfirio Mohabir-- 
-Jan/2019 – May/2019--
-University of San Francisco--
+Writer: Porfirio Mohabir <br /> 
+Jan/2019 – May/2019 <br /> 
+University of San Francisco <br /> 
 CS 212 (Software Development Project)
 
 # Project Overview

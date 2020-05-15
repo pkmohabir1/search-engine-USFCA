@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%m%throwable{short.message} %n">
+			</PatternLayout>
+		</Console>
+
+		<File name="FileLog" fileName="debug.log" append="false">
+			<PatternLayout
+				pattern="[%sequenceNumber%level{length=2}] %class{1}.%method %thread: %m %throwable{3}%n">
+			</PatternLayout>
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<Root level="All">
+			<AppenderRef ref="Console" level="DEBUG" />
+			<AppenderRef ref="FileLog" level="ALL" />
+		</Root>
+	</Loggers>
+</Configuration>
